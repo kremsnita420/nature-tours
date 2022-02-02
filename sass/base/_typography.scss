@@ -17,6 +17,7 @@ body {
 	&--main {
 		display: block;
 		font-size: 6rem;
+
 		font-weight: 400;
 		letter-spacing: 3.5rem;
 		animation: moveInLeft 1s ease-out;
@@ -47,6 +48,7 @@ body {
 	font-size: 3.5rem;
 	text-transform: uppercase;
 	font-weight: 700;
+	padding: 0 1rem;
 	display: inline-block;
 	background-image: linear-gradient(
 		to right,
