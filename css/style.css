@@ -926,15 +926,15 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 35rem 0 25rem;
+  padding: 35rem 25rem;
   margin-top: -20vh; }
   @media only screen and (max-width: 56.25em) {
     .section-about {
-      padding: 25rem 0 25rem; } }
+      padding: 25rem; } }
 
 .section-features {
   padding: 20rem 0;
-  margin-top: -6vh;
+  margin-top: -17vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/nat-4.jpg");
   background-size: cover;
   transform: skewY(-7deg); }
@@ -947,7 +947,7 @@ body {
 .section-tours {
   background-color: #f7f7f7;
   padding: 20rem 0 5rem;
-  margin-top: -8rem; }
+  margin-top: -10rem; }
   @media only screen and (max-width: 37.5em) {
     .section-tours {
       padding: 20rem 0 5rem; } }
