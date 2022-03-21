@@ -1,20 +1,17 @@
 .row {
-	max-width: $grid-width-large;
+	max-width: $grid-width;
 	margin: 0 auto;
-	padding: 0 1rem;
 
 	&:not(:last-child) {
 		margin-bottom: $gutter-vertical;
 
-		// * media queries
 		@include respond(tab-port) {
 			margin-bottom: $gutter-vertical-small;
 		}
 	}
 
-	// * media queries
 	@include respond(tab-port) {
-		max-width: $grid-width-small;
+		max-width: 50rem;
 		padding: 0 3rem;
 	}
 
@@ -26,14 +23,12 @@
 		&:not(:last-child) {
 			margin-right: $gutter-horizontal;
 
-			// * media queries
 			@include respond(tab-port) {
 				margin-right: 0;
 				margin-bottom: $gutter-vertical-small;
 			}
 		}
 
-		// * media queries
 		@include respond(tab-port) {
 			width: 100% !important;
 		}
